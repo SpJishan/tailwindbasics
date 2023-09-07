@@ -4,27 +4,128 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,700&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+     tailwind.config = {
+  theme: {
+    fontFamily: {
+      'sans': ['ui-sans-serif', 'system-ui'],
+      'serif': ['Roboto:ital', 'Georgia'],
+      'mono': ['ui-monospace', 'SFMono-Regular'],
+      
+  }
+}
+    </script>
     <title>Typography</title>
   </head>
   <body>
     <!-- Font Family -->
+    <div class="flex item-center p-6 max-w-sm mx-auto bg-white rounded-xl shadow-xl space-x-4 mt-12">
+      <div>
+        <h1 class="text-2xl text-justify mb-5"> Tailwind's Font Family</h1>
+        <div class="font-sans">Tailwind Sans Family</div>
+        <div class="font-serif">Tailwind Serif Family</div>
+        <div class="font-mono">Tailwind Mono Family</div>
+
+        
+        
+      </div>
+      </div>
 
     <!-- Font Size -->
+    <div class="flex item-center p-6 max-w-sm mx-auto bg-white rounded-xl shadow-xl space-x-4 mt-12">
+      <div>
+        <h1 class="text-2xl text-justify mb-5"> Tailwind's Font Size</h1>
+        <div class="text-xs">Tailwind-font-size in xs</div>
+        <div class="text-sm">Tailwind-font-size in sm</div>
+        <div class="text-base">Tailwind-font-size in base</div>
+        <div class="text-lg">Tailwind-font-size in lg</div>
+        <div class="text-xl">Tailwind-font-size in xl</div>
+        <div class="text-2xl">Tailwind-font-size in 2xl</div>
+        <div class="text-9xl"> in 9xl</div>
 
+        
+        
+      </div>
+      </div>
     <!-- Font Weight -->
+    <div class="flex item-center p-6 max-w-sm mx-auto bg-white rounded-xl shadow-xl space-x-4 mt-12">
+      <div>
+        <h1 class="text-2xl text-justify mb-5"> Tailwind's Font Weight</h1>
+        <div class="font-light">Tailwind-font-weight in light</div>
+        <div class="font-normal">Tailwind-font-weight in normal</div>
+        <div class="font-medium">Tailwind-font-weight in medium</div>
+        <div class="font-semibold">Tailwind-font-weight in semibold</div>
+        <div class="font-bold">Tailwind-font-weight in bold</div>
+
+      </div>
+    </div>
 
     <!-- Letter Spacing -->
+    <div class="flex item-center p-6 max-w-sm mx-auto bg-white rounded-xl shadow-xl space-x-4 mt-12">
+      <div>
+        <h1 class="text-2xl text-justify mb-5"> Tailwind's Letter Spacing</h1>
+        <div class="tracking-tight">Tailwind-letter-spacing in tight</div>
+        <div class="tracking-normal">Tailwind-letter-spacing in normal</div>
+        <div class="tracking-wide">Tailwind-letter-spacing in wide</div>
+        
+      </div>
+    </div>
 
     <!-- Text Alignment -->
-
+    <div class="flex item-center p-6 max-w-sm mx-auto bg-white rounded-xl shadow-xl space-x-4 mt-12">
+      <div>
+        <h1 class="text-2xl text-justify mb-5"> Tailwind's Text Alignment</h1>
+        <div class="text-left"> In left</div>
+        <div class="text-center"> In center</div>
+        <div class="text-right"> In right</div>
+        
+      </div>
+    </div>
     <!-- Text Decoration -->
 
+    <div class="flex item-center p-6 max-w-sm mx-auto bg-white rounded-xl shadow-xl space-x-4 mt-12">
+      <div>
+        <h1 class="text-2xl text-justify mb-5"> Tailwind's Text Decoration</h1>
+        <div class="underline decoration-blue-400 decoration-4">Decoration in 4</div>
+        
+    </div>
+  </div>
+
     <!-- Decoration Style -->
+    <div class="flex item-center p-6 max-w-sm mx-auto bg-white rounded-xl shadow-xl space-x-4 mt-12">
+      <div>
+        <h1 class="text-2xl text-justify mb-5">Text Decoration Style</h1>
+        <div class="underline decoration-blue-400 decoration-double">Decoration in double</div>
+        <div class="underline decoration-blue-400 decoration-dotted">Decoration in dotted</div>
+        <div class="underline decoration-blue-400 decoration-dashed">Decoration in dashed</div>
+        <div class="underline decoration-blue-400 decoration-wavy">Decoration in wavy</div>
+      </div>
+    </div>
 
     <!-- Decoration Offset -->
+    <div class="flex item-center p-6 max-w-sm mx-auto bg-white rounded-xl shadow-xl space-x-4 mt-12">
+      <div>
+        <h1 class="text-2xl text-justify mb-5">Text Decoration Offset</h1>
+        <div class="underline decoration-blue-400 decoration-4 underline-offset-8">Decoration offset in 8</div>
+        
+    </div>
+  </div>
 
     <!-- Text Transform -->
+    <div class="flex item-center p-6 max-w-sm mx-auto bg-white rounded-xl shadow-xl space-x-4 mt-12">
+      <div>
+        <h1 class="text-2xl text-justify mb-5"> Tailwind's Text Transform</h1>
+        <div class="normal-case">Text in normal case</div>
+        <div class="uppercase">Text in uppercase</div>
+        <div class="lowercase">Text in lowercase</div>
+        <div class="capitalize">Text in capitalize</div>
+        
+    </div>
+  </div>
   </body>
 </html>
 
