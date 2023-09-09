@@ -9,28 +9,105 @@
   </head>
   <body>
     <!-- Positioning -->
-
+      <div class="relative h-12 w-1/2 m-auto mt-3 bg-orange-200">
+        <p>Parent Element </p>
+        <div class="absolute bottom-0 right-0 bg-red-500">
+          <p>Absolute Child</p>
+        </div>
+      </div>
     <!-- Top left corner -->
+    <div class="relative h-12 w-1/2 m-auto mt-3 bg-orange-300">
+      <p>Parent Element </p>
+      <div class="absolute top-0 left-0 bg-red-500">
+        <p>Absolute Child in top left</p>
+      </div>
+    </div>
 
     <!-- Top right corner -->
+    <div class="relative h-12 w-1/2 m-auto mt-3 bg-orange-400">
+      <p>Parent Element </p>
+      <div class="absolute top-0 right-0 bg-red-500">
+        <p>Absolute Child in top right</p>
+      </div>
+    </div>
 
     <!-- Bottom left corner -->
+    <div class="relative h-12 w-1/2 m-auto mt-3 bg-orange-500">
+      <p>Parent Element </p>
+      <div class="absolute bottom-0 left-0 bg-red-500">
+        <p>Absolute Child in bottom left</p>
+      </div>
+    </div>
 
     <!-- Bottom right corner -->
+    <div class="relative h-12 w-1/2 m-auto mt-3 bg-orange-600">
+      <p>Parent Element </p>
+      <div class="absolute bottom-0 right-0 bg-red-500">
+        <p>Absolute Child in bottom right</p>
+      </div>
+    </div>
 
     <!-- Span top edge -->
+    <div class="relative h-12 w-1/2 m-auto mt-3 bg-orange-300">
+      <p>Parent Element </p>
+      <div class="absolute inset-x-0 top-0 bg-red-500">
+        <p>Spanning Absolute Child in top edge</p>
+      </div>
+    </div>
 
     <!-- Span left edge -->
+    <div class="relative h-40 w-1/2 m-auto mt-3 bg-orange-500">
+      <p>Parent Element </p>
+      <div class="absolute inset-y-0 left-0 top-0 h-40 bg-red-500">
+        <p>Spanning Absolute Child in left(Y) edge</p>
+      </div>
+    </div>
 
     <!-- Span right edge -->
-
+    <div class="relative h-40 w-1/2 m-auto mt-3 bg-orange-500">
+      <p>Parent Element </p>
+      <div class="absolute inset-y-0 right-0 top-0 h-40 bg-red-500">
+        <p>Spanning Absolute Child in Right(Y) edge</p>
+      </div>
+    </div>
     <!-- Span bottom edge -->
+    <div class="relative h-40 w-1/2 m-auto mt-3 bg-orange-500">
+      <p>Parent Element </p>
+      <div class="absolute inset-x-0  bottom-0  bg-red-500">
+        <p>Spanning Absolute Child in bottom edge</p>
+      </div>
+    </div>
 
     <!-- Display Classes -->
+    <div class="h-50 w-1/2 m-auto mt-3 p-3 bg-orange-700">
+      Lorem ipsum dolor sit amet consectetur,  <span class="inline font-bold" >This is inline</span> adipisicing elit. Quas itaque at dolorum numquam <span class="inline-bloc font-bold" >This is inline-block</span> necessitatibus cumque dolor ducimus <span class="block font-bold" >This is block</span>inventore distinctio quos eaque doloribus aliquid officiis quia soluta hic architecto, modi doloremque! Debitis, alias incidunt non doloremque amet doloribus libero ratione quisquam obcaecati velit deserunt perspiciatis voluptate maiores, ipsam fugit harum architecto nemo quidem totam accusamus, pariatur nostrum nulla aperiam vitae? Dignissimos!
+    </div>
 
     <!-- Z-Index -->
+    <div class="relative h-44 w-1/2 m-auto mt-3 p-3 bg-orange-700">
+      <div class="absolute w-40 h-40 m-auto left-10 bg-blue-300">1</div>
+      <div class="absolute w-40 h-40 m-auto left-20 bg-blue-400">2</div>
+      <div class="absolute w-40 h-40 m-auto left-40 bg-blue-500">3</div>
+      <div class="absolute w-40 h-40 m-auto left-60 bg-blue-600">4</div>
+      <div class="absolute w-40 h-40 m-auto left-80 bg-blue-700">5</div>
+
+    </div>
+
+    <!-- Z-Index -->
+    <div class="relative h-44 w-1/2 m-auto mt-3 p-3 bg-orange-700">
+      <div class="absolute w-40 h-40 m-auto left-10 bg-blue-300 z-10">1 z-index is heigher than 2</div>
+      <div class="absolute w-40 h-40 m-auto left-20 bg-blue-400">2</div>
+      <div class="absolute w-40 h-40 m-auto left-40 bg-blue-500">3</div>
+      <div class="absolute w-40 h-40 m-auto left-60 bg-blue-600 z-20">4 z-index is heigher than everyone</div>
+      <div class="absolute w-40 h-40 m-auto left-80 bg-blue-700">5</div>
+    </div>
 
     <!-- Floats -->
+
+    <div class="h-44 w-1/2 m-auto mt-3 bg-grey-200">
+      <img src="../assets/img/img1.jpg" class="h-40 w-40 float-left m-3" />
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam asperiores corrupti molestiae perferendis! Sunt, cumque, illum recusandae, voluptas quam nemo expedita excepturi eum aliquid impedit est dolorem consequatur nam error!
+    </div>
   </body>
 </html>
 
