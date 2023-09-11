@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -8,26 +8,110 @@
     <title>Interactivity</title>
   </head>
   <body>
+    <a href="#item">Scroll To Item</a>
     <!-- Hover State Styling -->
-
+    <button
+      type="button"
+      class="bg-black text-white py-3 px-5 rounded-lg m-3 hover:bg-orange-500 hover:text-black">hover:bg-orange-500 hover:text-black</button>
     <!-- Focus State Styling -->
-
+    <button
+      type="button"
+      class="bg-black text-white py-3 px-5 rounded-lg m-3 focus:bg-green-500 focus:text-black"
+    >
+    focus:bg-green-500 focus:text-black
+    </button>
     <!-- Active State Styling -->
+    <button
+      type="button"
+      class="bg-black text-white py-3 px-5 rounded-lg m-3 active:bg-yellow-500 active:text-black"
+    >
+    active:bg-yellow-500 active:text-black
+    </button>
+
+    <br>
 
     <!-- Styling based on parent state -->
+    <!-- When you need to style an element based on the state of some parent element, mark the parent with the group class, and use group-* modifiers like group-hover to style the target element: -->
+    <a href="#" class="group block max-w-xs mx-auto rounded-lg p-6 bg-white shadow-lg space-y-3 hover:bg-sky-500">
+  <div class="flex items-center">
+    <h3 class="group-hover:text-white">group-hover:text-white Card Title</h3>
+  </div>
+  <p class="group-hover:text-white"> group-hover:text-white This is some card text</p>
+</a>
+
+ <br>
 
     <!-- Pseudo Classes -->
+    <ul>
+      <li class="even:bg-green-200 odd:bg-blue-200">Item 1</li>
+      <li class="even:bg-green-200 odd:bg-blue-200">Item 2</li>
+      <li class="even:bg-green-200 odd:bg-blue-200">Item 3</li>
+      <li class="even:bg-green-200 odd:bg-blue-200">Item 4</li>
+      <li class="even:bg-green-200 odd:bg-blue-200">Item 5</li>
+      <li class="even:bg-green-200 odd:bg-blue-200">Item 6</li>
+      <li class="even:bg-green-200 odd:bg-blue-200">Item 7</li>
+      <li class="even:bg-green-200 odd:bg-blue-200">Item 8</li>
+      <li class="even:bg-green-200 odd:bg-blue-200">Item 9</li>
+      <li class="even:bg-green-200 odd:bg-blue-200">Item 10</li>
+    </ul>
+
+    <br />
 
     <!-- Appearance -->
     <!-- Use appearance-none to reset any browser specific styling on an element. This utility is often used when creating custom form components. -->
+    <select>
+      <option>Yes</option>
+      <option>No</option>
+    </select>
+
+    <select class="appearance-none">
+      <option>Yes</option>
+      <option>No</option>
+    </select>
+
+    <br />
 
     <!-- Cursor -->
+    <button
+      type="button"
+      class="bg-black text-white py-3 px-5 rounded-lg m-3 cursor-pointer"
+    >
+    cursor-pointer
+    </button>
+    <button
+      type="button"
+      class="bg-black text-yellow-500 py-3 px-5 rounded-lg m-3 cursor-progress"
+    >
+    cursor-progress Loading...
+    </button>
+    <button
+      type="button"
+      disabled
+      class="bg-black text-red-200 py-3 px-5 rounded-lg m-3 cursor-not-allowed"
+    >
+    cursor-not-allowed Confirm
+    </button>
+
+    <br />
 
     <!-- Resize -->
+    <textarea class="border border-black rounded resize"></textarea>
 
     <!-- User Select -->
+    <div class="select-none "><span class="font-bold">select-none</span> Lorem ipsum dolor sit amet.</div>
+    <div class="select-text"><span class="font-bold">select-text </span> Lorem ipsum dolor sit amet.</div>
+    <div class="select-all"><span class="font-bold">select-all</span>  Lorem ipsum dolor sit amet.</div>
+    <div class="select-auto"><span class="font-bold">select-auto</span>  Lorem ipsum dolor sit amet.</div>
 
-    <!-- Smooth Scroll Example -->
+    <p>
+     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis nihil minima odio ratione! Atque voluptatum animi vel perspiciatis. Cupiditate, adipisci minima. Culpa possimus perferendis ad cupiditate delectus! Est obcaecati id quia vitae dolor sequi voluptatibus facere natus asperiores autem, hic exercitationem! Quis at repellendus nemo inventore ut magni veritatis amet. Reiciendis alias animi voluptate distinctio cupiditate mollitia dolore optio nesciunt. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam laborum veritatis autem illum magnam harum repellat dignissimos laudantium sed, quos cumque iusto iste ab eveniet fuga aspernatur illo commodi alias! Soluta vitae ab maiores velit odio tempore ratione laborum non consequuntur? Error incidunt asperiores esse accusantium sapiente voluptatem deleniti et dolores corporis qui dolore libero quidem quisquam modi labore quos, id, veritatis nihil delectus iusto iure vero! Fugiat, ratione eaque, dolorum ut facere repellendus fugit consequatur unde nisi tenetur vero quod tempore officiis nostrum quis aut molestias veniam veritatis inventore quisquam eos dolor! Numquam tempore quia sunt corporis, atque odit ipsam inventore alias fugiat. Dolore, quidem! Totam at porro autem illo doloremque animi molestias nesciunt ex odio? Modi, ea quidem exercitationem maiores quasi at sed ad, quas, magnam laboriosam consequuntur mollitia ipsum incidunt dicta numquam qui dolor recusandae est nulla magni? Facilis blanditiis minus quisquam eveniet dolor error asperiores ratione repudiandae, provident repellendus corrupti ipsam ullam voluptate aliquid vero animi saepe! Deleniti excepturi adipisci maxime tenetur atque ab tempora a, velit commodi aut dolorum voluptatibus ex quisquam omnis molestias laboriosam nemo exercitationem facilis voluptatum praesentium! Omnis doloremque iure facere magnam sapiente eum laudantium fugiat error rerum. Modi porro vitae vero omnis? Ullam, eum quo provident ad voluptates impedit laboriosam iure iusto sed dolorum natus soluta. Odit quam eaque porro aliquid minima reprehenderit omnis illum quos, enim nihil recusandae ea corporis hic fugit nulla aut error tempora. Ipsam nam animi odio perferendis totam, laboriosam provident amet! Vel officiis labore voluptatem sapiente aliquam voluptatum tenetur aperiam voluptatibus voluptates enim quia unde tempora corporis ipsum laudantium nostrum ipsa culpa, nisi earum autem error. Aliquid alias nihil officia facilis odio recusandae pariatur minima expedita laborum vel. Hic aliquid fuga nisi et laudantium? Sapiente iste, facere, repudiandae architecto voluptatem fuga sint aliquid provident perspiciatis fugit cumque amet aut laborum illo neque quisquam vero nisi. Asperiores omnis illo soluta pariatur libero. Corporis, eaque, hic suscipit eum aliquam inventore quaerat tempore nostrum quod tenetur asperiores excepturi doloremque consectetur optio fugit vero, neque distinctio iure modi? Id explicabo nulla culpa dolorum illum alias blanditiis corporis qui, a doloribus nostrum perspiciatis soluta tempore optio totam sequi quos vero! Labore, quod ullam accusantium obcaecati dignissimos tempora quos, veniam quasi velit repellendus inventore voluptates vitae ducimus quam maxime repudiandae, maiores saepe quis praesentium laudantium vel consequatur? Enim esse corporis delectus, ut perferendis fugit similique eveniet molestias aut alias consectetur debitis animi voluptate fuga tempore voluptatum repellendus maxime quasi ipsum natus facilis hic! Deleniti vel nulla suscipit nisi veritatis obcaecati consequuntur ullam reiciendis laborum ab repudiandae, dolore cumque mollitia quae doloribus modi hic a! Sapiente sequi adipisci eveniet laboriosam repellendus, nostrum quis veritatis odit eaque. Architecto necessitatibus voluptas laudantium consectetur! Voluptate eius consectetur animi, itaque maxime veritatis quos eaque optio minus molestias reprehenderit blanditiis voluptatibus ex nam eligendi tenetur ratione impedit, illo quis? Natus quidem ad, odio officia doloribus hic quo deleniti illum fuga suscipit ullam ratione aspernatur officiis error inventore voluptatibus possimus ut magni doloremque sapiente facilis ipsa aperiam animi. Facere.
+    </p>
+
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis aliquid sint vel culpa neque aut quas temporibus maxime quaerat tempora quo, enim nihil animi exercitationem explicabo nulla nobis voluptatem facere. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et quis accusantium doloremque magnam, deleniti repellendus dolorum impedit cupiditate iure pariatur aliquam. Qui iste quas molestias ipsam, sapiente quis maxime unde, a non ut architecto! Delectus, quaerat in omnis exercitationem nostrum molestiae at quibusdam accusamus, sapiente laborum laudantium voluptatum blanditiis corporis? A recusandae porro veritatis in at mollitia possimus pariatur perspiciatis quis laboriosam corporis consequuntur id quisquam omnis eius, consequatur aspernatur sequi, accusamus sapiente illo aut? Facilis eaque at facere repellat porro quod, exercitationem illum eveniet nobis eos! Odit sed impedit excepturi modi illo eos eius labore recusandae dolorem facere rerum officia quia, corporis mollitia facilis quos asperiores repellendus, cum, laboriosam placeat non minima rem quis voluptates. Ut iure at a voluptates velit laudantium tempore eum laborum obcaecati amet, veniam, numquam autem quaerat ab assumenda veritatis, eveniet fugiat. Fugiat ipsam exercitationem eaque, dicta iure ex, ullam nostrum, illum minima ipsa voluptate.
+    </p>
+
+    <div id="item">Item</div>
   </body>
 </html>
 
